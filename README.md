@@ -16,7 +16,7 @@
 
 - 文件操作使用 simple-uploader [GitHub]( https://github.com/simple-uploader/vue-uploader) 、[参数说明](https://github.com/simple-uploader/Uploader/blob/develop/README_zh-CN.md)
     - 使用前一定要去一下 simple-uploader 相关参数，钩子函数等，不然会迷茫
-- 加密使用 spark-md5.js
+- 签名使用 spark-md5.js
 - 页面用的 element-ui
 
 后端

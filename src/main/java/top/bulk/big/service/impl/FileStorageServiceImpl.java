@@ -84,7 +84,7 @@ public class FileStorageServiceImpl extends ServiceImpl<FileStorageMapper, FileS
 
     /**
      * 分片上传方法
-     * 这里使用 uploadFileByRandomAccessFile 方法，也可以使用 uploadFileByMappedByteBuffer 方法上传
+     * 这里使用 RandomAccessFile 方法，也可以使用 MappedByteBuffer 方法上传
      * 可以省去文件合并的过程
      *
      * @param fullFileName 文件名
